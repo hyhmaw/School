@@ -6,6 +6,6 @@ protected:
     int age;
 public: 
     virtual void getInfo() = 0;
-    virtual void getRole() = 0;
+    virtual string getRole() = 0;
     virtual ~Person();
 };
